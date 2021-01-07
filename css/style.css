@@ -9,7 +9,7 @@ body {
   align-items: center;
   background: linear-gradient(to left, rgb(125, 41, 221), rgb(224, 248, 137));
   font-family: Roboto, sans-serif;
-  background: url(img/horo.jpg);
+  background: url(/horo/horo.jpg);
 
   background-size: cover;
 }
