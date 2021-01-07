@@ -16,16 +16,17 @@
 <body>
 
 	<div class="nativeDatePicker">
-		<label for="bday">
-			<h2>Enter your birthday:</h><br />
-				<input type="date" id="bday" name="bday" required>
-		</label>
+		<div class="topsec">
+			<label for="bday">
+				<h2>Enter your birthday:</h><br />
+					<input type="date" id="bday" name="bday" required>
+			</label>
+			<button class="button">Submit</button>
+			<h3>Your horoscope is: <span class='result'></span> </h3>
 
-		<button class="button">Submit</button>
-		<h3>Your horoscope is: <span class='result'></span></h3>
-		<section>
-			<img src="horo.jpg" alt="">
-		</section>
+			<img src="" alt="" class="pic">
+
+		</div>
 	</div>
 
 	<script type="text/javascript" src="js/main.js" defer></script>
